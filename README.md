@@ -40,13 +40,13 @@
 
 | STT | Nghiệp vụ | Phân công  |
 |----------------|--------------------|--------------------|
-|  1  |  Tìm kiếm sách |   Thi  |
-|  2  |  Đăng nhập đăng ký |  Thảo  |
-|  3  |  Xem thông tin sách [Trang chủ, trang tin tức, trang giới thiệu, trang xem toàn bộ sách(có bộ lọc),Xem chi tiết sách, đánh giá sách]  |   Thi  |
-|  4  |  Quản lý thông tin tài khoản [Thông tin KH, thông tin tài khoản, thông tin đơn hàng đã mua, sách yêu thích] |  Phát  |
-|  5  |  Mua hàng  |  Phát  |
-|  6 |  Thanh toán |  Phát  |
-|  7 |  Đánh giá |  Phát  |
+|  1  |  Tìm kiếm quần áo |     |
+|  2  |  Đăng nhập đăng ký |    |
+|  3  |  Xem thông tin quần áo [Trang chủ, trang tin tức, trang giới thiệu, trang xem toàn bộ quần áo(có bộ lọc),Xem chi tiết quần áo, đánh giá quần áo]  |    |
+|  4  |  Quản lý thông tin tài khoản [Thông tin KH, thông tin tài khoản, thông tin đơn hàng đã mua, quần áo yêu thích] |    |
+|  5  |  Mua hàng  |    |
+|  6 |  Thanh toán |   |
+|  7 |  Đánh giá |    |
 
 
 <p>App: Winform </p>
@@ -54,29 +54,29 @@
 
 | STT | Nghiệp vụ | Phân công  |
 |----------------|--------------------|--------------------|
-|  1  |  Đăng nhập/đăng xuất |   Thảo  |
-|  2  | Phân quyền  |  Thảo |
-|  3  |  Quản lý nhân viên +  chức vụ  |   Thi  |
-|  4  |  Quản lý sách + tác giả + nhà sản xuất + AI|   Thảo  |
-|  5  |  Quản lý khách hàng |  Thi  |
-|  6  |   Quản lý tin tức |  Phát  |
-|  7  |   Thống kê |  Thảo  |
-|  8  |   Báo cáo |  Thảo  |
-|  9  |  Duyệt tin tức|  Thảo  |
+|  1  |  Đăng nhập/đăng xuất |     |
+|  2  | Phân quyền  |   |
+|  3  |  Quản lý nhân viên +  chức vụ  |     |
+|  4  |  Quản lý quần áo  + nhà sản xuất + AI|    |
+|  5  |  Quản lý khách hàng |    |
+|  6  |   Quản lý tin tức |    |
+|  7  |   Thống kê |    |
+|  8  |   Báo cáo |    |
+|  9  |  Duyệt tin tức|    |
 
 
 ## Chức năng
 #### WEDSITE
-<p>Tìm kiếm và hiện thi thông tin sách:</p>
+<p>Tìm kiếm và hiện thi thông tin quần áo:</p>
 <ul>
-  <li>Tìm kiếm sách theo tên, tác giả, thể loại, từ khóa, v.v.</li>
-  <li>Hiển thị thông tin chi tiết của mỗi cuốn sách, bao gồm mô tả, tác giả, đánh giá, v.v.</li>
+  <li>Tìm kiếm quần áo theo thương hiệu, giới tính, thể loại, màu sắc,giá v.v.</li>
+  <li>Hiển thị thông tin chi tiết của mỗi bộ quần áo, bao gồm mô tả, nhà sản xuất, đánh giá, v.v.</li>
 </ul>
 <p>
-  Giỏ hàng, Mua sách và thanh toán:
+  Giỏ hàng, Mua quần áo và thanh toán:
 </p>
 <ul>
-  <li>Thêm sách vào giỏ hàng </li>
+  <li>Thêm quần áo vào giỏ hàng </li>
   <li>Xem lại giỏ hàng trước khi tiến hành thanh toán</li>
    <li>Hỗ trợ nhiều phương thức thanh toán an toàn như ví điện tử, v.v.</li>
 	<li>Hiển thị thông tin chi tiết của giỏ hàng và tổng số tiền.</li>
@@ -89,23 +89,23 @@
     Đăng ký và đăng nhập tài khoản cho người dùng.
   </li>
   <li>Quản lý thông tin cá nhân, mật khẩu</li>
-  <li>Hiển thị danh sách các cuốn sách mà người dùng đã mua hoặc tải về.</li>
+  <li>Hiển thị danh sách các bộ quần áo mà người dùng đã mua.</li>
 <li>Đơn hàng của người dùng</li>
-<li>Hiện thị sách yêu thích</li>
+<li>Hiện thị quần áo yêu thích</li>
 <li>Thông tin tài khoản</li>
  <li>Đổi mật khẩuh</li>
 <li>Thông tin khách hàng</li>
-<li>Người dùng có thể đánh giá và viết nhận xét về các cuốn sách.</li>
+<li>Người dùng có thể đánh giá và viết nhận xét về các bộ quần áo.</li>
 </ul>
 
 #### APP
 
 <p>
-Quản lý sách
+Quản lý quần áo
 </p>
 <ul>
-<li>Thêm và cập nhật sách</li>
-<li>Tra cứu thông tin sách</li>
+<li>Thêm và cập nhật quần áo</li>
+<li>Tra cứu thông tin quần áo</li>
 </ul>
 <p>
 Quản lý thể loại và nhà xuất bản
@@ -139,8 +139,8 @@ Quản lý nhân viên và chức vụ
 Báo cáo
 </p>
 <ul>
-<li>Sách được mau nhiều nhất trong tháng </li>
-<li> Sách đuợc Thêm vào yêu thích nhiều nhất</li></li>
+<li>Quần áo được mua nhiều nhất trong tháng </li>
+<li>Quần áo đuợc Thêm vào yêu thích nhiều nhất</li></li>
 </ul>
 <p>
 Thống kê</p>
