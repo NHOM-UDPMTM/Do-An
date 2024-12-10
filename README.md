@@ -11,7 +11,7 @@
  - .Net Framework version 4.8
  - Visual studio 2022
  - Visual studio code
- - 
+ - Laravel Framework
 -----------------------------------------------
 
 ### Chi tiết
@@ -20,15 +20,9 @@
 -----------------------------------------------
 # Dự án
 
-## Phần mềm quản lý shop quần áo
+## Phần mềm quản lý bán mỹ phẩm
 
-<h5>Mô tả Dự án:</h5> 
-<p>Phần mềm Quản lý Shop Quần Áo là một hệ thống ứng dụng đa nền tảng được thiết kế để hỗ trợ các cửa hàng quần áo trong việc quản lý hàng hóa, bán hàng, và chăm sóc khách hàng một cách hiệu quả và linh hoạt. Hệ thống này bao gồm cả giao diện web và ứng dụng di động, giúp người dùng dễ dàng quản lý mọi hoạt động liên quan đến kinh doanh thời trang từ bất kỳ đâu và vào bất kỳ thời điểm nào.</p>
-
-<p>Với khả năng truy cập qua mạng, phần mềm cung cấp một môi trường quản lý hiện đại, giúp các chủ cửa hàng tổ chức và theo dõi hàng hóa, đơn hàng, và khách hàng một cách thuận tiện. Các tính năng chính của phần mềm bao gồm quản lý kho, và phân tích doanh thu. Điều này không chỉ tiết kiệm thời gian mà còn giúp nâng cao hiệu quả công việc và giảm thiểu lỗi trong quá trình quản lý.</p>
-<p>Người dùng có thể dễ dàng thêm mới sản phẩm, theo dõi tình trạng tồn kho, và thực hiện các giao dịch bán hàng thông qua một giao diện trực quan và dễ sử dụng. Các công cụ báo cáo và phân tích tích hợp sẽ cung cấp cái nhìn sâu sắc về doanh số bán hàng, hiệu suất của các sản phẩm, và hành vi mua sắm của khách hàng, từ đó giúp chủ shop đưa ra các quyết định kinh doanh thông minh hơn.</p> 
-<p>Phần mềm cũng hỗ trợ quản lý khách hàng với tính năng lưu trữ thông tin liên hệ, theo dõi lịch sử mua sắm và quản lý chương trình khuyến mãi. Nhờ đó, cửa hàng có thể cung cấp dịch vụ khách hàng tốt hơn và xây dựng mối quan hệ lâu dài với khách hàng.</p>
-<p>Với phần mềm Quản lý Shop Quần Áo, các chủ cửa hàng không chỉ có được một công cụ quản lý hiệu quả mà còn trải nghiệm sự linh hoạt và tiện ích của công nghệ trong việc tối ưu hóa hoạt động kinh doanh và nâng cao trải nghiệm mua sắm của khách hàng.</p>
+<h5>Mô tả Dự án:</h5> <p>Phần mềm Quản lý Shop Mỹ Phẩm là một hệ thống ứng dụng hiện đại được thiết kế để hỗ trợ các cửa hàng mỹ phẩm trong việc quản lý hàng hóa, đơn hàng, khách hàng và các chiến dịch khuyến mãi một cách hiệu quả. Hệ thống bao gồm giao diện web cho người dùng và ứng dụng desktop dành cho quản lý, cung cấp khả năng quản lý linh hoạt và tiện lợi.</p> <p>Giao diện web cho phép khách hàng dễ dàng tìm kiếm sản phẩm, thêm vào giỏ hàng, thanh toán, và đánh giá sản phẩm. Trong khi đó, ứng dụng desktop giúp nhà quản lý thực hiện các công việc như quản lý sản phẩm, khách hàng, nhân viên, và theo dõi doanh thu. Phần mềm cũng tích hợp AI để gợi ý sản phẩm, giúp nâng cao trải nghiệm mua sắm và tối ưu hóa quy trình quản lý.</p> <h5>Tính năng nổi bật:</h5> - Quản lý kho hàng chi tiết, bao gồm sản phẩm, số lượng tồn kho và nhà cung cấp. - Quản lý khách hàng thân thiết với thông tin mua sắm, lịch sử giao dịch, và chương trình khuyến mãi. - Báo cáo doanh thu và thống kê trực quan giúp người quản lý dễ dàng đưa ra quyết định kinh doanh.
 
 ### Yêu cầu 
 <p>AI: Gợi ý sản phẩm theo nội dung  </p>
@@ -42,7 +36,7 @@
 |----------------|--------------------|--------------------|
 |  1  |  Tìm kiếm quần áo |     |
 |  2  |  Đăng nhập đăng ký |    |
-|  3  |  Xem thông tin quần áo [Trang chủ, trang tin tức, trang giới thiệu, trang xem toàn bộ quần áo(có bộ lọc),Xem chi tiết quần áo, đánh giá quần áo]  |    |
+|  3  |  Xem thông tin mỹ phẩm [Trang chủ, tin tức, giới thiệu, sản phẩm chi tiết, đánh giá mỹ phẩm]  |    |
 |  4  |  Quản lý thông tin tài khoản [Thông tin KH, thông tin tài khoản, thông tin đơn hàng đã mua, quần áo yêu thích] |    |
 |  5  |  Mua hàng  |    |
 |  6 |  Thanh toán |   |
@@ -56,95 +50,20 @@
 |----------------|--------------------|--------------------|
 |  1  |  Đăng nhập/đăng xuất |     |
 |  2  | Phân quyền  |   |
-|  3  |  Quản lý nhân viên +  chức vụ  |     |
-|  4  |  Quản lý quần áo  + nhà sản xuất + AI|    |
-|  5  |  Quản lý khách hàng |    |
-|  6  |   Quản lý tin tức |    |
-|  7  |   Thống kê |    |
-|  8  |   Báo cáo |    |
-|  9  |  Duyệt tin tức|    |
+|  3  |  Quản lý mỹ phẩm |    |
+|  4  |  Quản lý khách hàng |    |
+|  5  |   Quản lý nhập kho |    |
+|  6  |   Thống kê |    |
+|  7  |   Báo cáo |    |
+
 
 
 ## Chức năng
 #### WEDSITE
-<p>Tìm kiếm và hiện thi thông tin quần áo:</p>
-<ul>
-  <li>Tìm kiếm quần áo theo thương hiệu, giới tính, thể loại, màu sắc,giá v.v.</li>
-  <li>Hiển thị thông tin chi tiết của mỗi bộ quần áo, bao gồm mô tả, nhà sản xuất, đánh giá, v.v.</li>
-</ul>
-<p>
-  Giỏ hàng, Mua quần áo và thanh toán:
-</p>
-<ul>
-  <li>Thêm quần áo vào giỏ hàng </li>
-  <li>Xem lại giỏ hàng trước khi tiến hành thanh toán</li>
-   <li>Hỗ trợ nhiều phương thức thanh toán an toàn như ví điện tử, v.v.</li>
-	<li>Hiển thị thông tin chi tiết của giỏ hàng và tổng số tiền.</li>
-</ul>
-<p>
- Quản lý thông tin tài khoản 
-</p>
-<ul>
-<li>
-    Đăng ký và đăng nhập tài khoản cho người dùng.
-  </li>
-  <li>Quản lý thông tin cá nhân, mật khẩu</li>
-  <li>Hiển thị danh sách các bộ quần áo mà người dùng đã mua.</li>
-<li>Đơn hàng của người dùng</li>
-<li>Hiện thị quần áo yêu thích</li>
-<li>Thông tin tài khoản</li>
- <li>Đổi mật khẩuh</li>
-<li>Thông tin khách hàng</li>
-<li>Người dùng có thể đánh giá và viết nhận xét về các bộ quần áo.</li>
-</ul>
-
+<p>Tìm kiếm và hiển thị thông tin mỹ phẩm:</p> <ul> <li>Tìm kiếm mỹ phẩm theo thương hiệu, loại da, công dụng, giá cả, v.v.</li> <li>Hiển thị thông tin chi tiết của sản phẩm, bao gồm mô tả, nhà cung cấp, đánh giá, v.v.</li> </ul> <p>Quản lý giỏ hàng, mua mỹ phẩm và thanh toán:</p> <ul> <li>Thêm sản phẩm vào giỏ hàng</li> <li>Xem lại giỏ hàng trước khi thanh toán</li> <li>Hỗ trợ thanh toán qua nhiều phương thức như ví điện tử</li> <li>Hiển thị chi tiết giỏ hàng và tổng số tiền</li> </ul> <p>Quản lý thông tin tài khoản:</p> <ul> <li>Đăng ký và đăng nhập tài khoản người dùng</li> <li>Quản lý thông tin cá nhân, mật khẩu</li> <li>Hiển thị lịch sử mua hàng và sản phẩm yêu thích</li> <li>Đánh giá sản phẩm đã mua</li> </ul>
 #### APP
 
 <p>
-Quản lý quần áo
-</p>
-<ul>
-<li>Thêm và cập nhật quần áo</li>
-<li>Tra cứu thông tin quần áo</li>
-</ul>
-<p>
-Quản lý thể loại và nhà xuất bản
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-</ul>
-<p>
-Quản lý khách hàng
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-<li>Tra cứu thông tin khách hàng</li>
-</ul>
-<p>
-Quản lý tin tức
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-<li>Duyệt tin tức </li>
-</ul>
-<p>
-Quản lý nhân viên và chức vụ
-</p>
-<ul>
-<li>Thêm và cập nhật </li>
-<li> Phân quyền nhân viên tùy theo chức vụ</li>
-<li> Tra cứu thông tin của nhân viên </li></li>
-</ul>
-<p>
-Báo cáo
-</p>
-<ul>
-<li>Quần áo được mua nhiều nhất trong tháng </li>
-<li>Quần áo đuợc Thêm vào yêu thích nhiều nhất</li></li>
-</ul>
-<p>
-Thống kê</p>
-<ul>
-<li>Doanh thu </li>
-<li> Đơn hàng theo ngày theo tháng, theo năm</li></li>
-</ul>
+Quản lý mỹ phẩm
+<p>Quản lý mỹ phẩm:</p> <ul> <li>Thêm và cập nhật mỹ phẩm</li> <li>Tra cứu thông tin mỹ phẩm</li> </ul> <p>Quản lý khách hàng:</p> <ul> <li>Thêm và cập nhật khách hàng</li> <li>Tra cứu thông tin khách hàng</li> </ul> <p>Quản lý khuyến mãi:</p> <ul> <li>Thêm và cập nhật chương trình khuyến mãi</li> <li>Tra cứu khuyến mãi áp dụng</li> </ul> <p>Quản lý nhân viên và phân quyền:</p> <ul> <li>Thêm và cập nhật thông tin nhân viên</li> <li>Phân quyền nhân viên theo chức vụ</li> </ul> <p>Báo cáo và thống kê:</p> <ul> <li>Báo cáo doanh thu hàng tháng</li> <li>Thống kê sản phẩm bán chạy và yêu thích</li> </ul>
+
